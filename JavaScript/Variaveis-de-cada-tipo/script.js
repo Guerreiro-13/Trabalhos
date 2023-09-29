@@ -1,5 +1,5 @@
 
-var ultimoNome = "Guerreiro";
+var ultimoNome = 'Guerreiro';
 //console.log(" Tipo String - " & ultimoNome);
 console.log(ultimoNome)
 
@@ -12,3 +12,9 @@ var resultadoCerto = true;
 //Boolean(resultadoCerto)
 console.log(typeof(resultadoCerto))
 //console.log(" Tipo Boolean - " & resultadoCerto);
+
+const pi = 3.14;
+console.log(pi)
+
+const code = 'Trusted';
+console.log(code)
