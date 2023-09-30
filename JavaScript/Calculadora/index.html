@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body style="background-color: darkgray;">
+    
+   <!-- Input para o primeiro número -->
+   <b><label for="numero1">Primeiro Número:</label></b> 
+   <input type="number" id="numero1"><br><br>
+
+   <!-- Input para o segundo número -->
+   <b><label for="numero2">Segundo Número:</label></b>
+   <input type="number" id="numero2"><br><br><br>
+
+   <!-- Botões para operações -->
+   <button onclick="efectuarSoma()">Soma "+"</button>
+   <button onclick="efectuarSubtracao()">Subtração "-"</button>
+   <button onclick="efectuarMultiplicacao()">Multiplicação "*"</button>
+   <button onclick="efectuarDivisao()">Divisão "/"</button>
+
+   <!-- Resultado das operações -->
+   <p id="resultado"></p>
+  
+</body>
+</html>
